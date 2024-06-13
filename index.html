@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagenes/2572676.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de texto
+        </h1>
+    </header>
+    <main>
+        <div id="global">
+
+            <div id="bloque-01">
+                <textarea name="ingreso" id="ingreso" placeholder="Ingrese el texto para encriptar" rows="20" cols="30"></textarea>
+                <h3><img src="imagenes/alert.png" id="icono">Solo letras minusculas y sin acentos</h3>
+                
+                <div id="botones1" class="botones">
+                    <button class="btn-azul" onclick="encriptar()">Encriptar</button>
+                    <button class="btn-blanco" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+
+            <div id="bloque-02">
+                <div id="sector-resultado">
+                    
+                    <p id="resultado" style="display: none"></p>
+
+                    <img id="imagen" src="imagenes/Screenshot 2024-06-11 001716.png" alt="Persona">
+
+                </div>
+                
+                <div id="botones2" class="botones">
+                    <button class="btn-azul" onclick="copiar()">Copiar</button>
+                    <button onclick="borrar()">Borrar</button>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <footer>
+
+        <p>Hola soy Facundo Marquez. Alumno del G6- ONE Oracle Next Education</p>
+
+        <div id="redes">
+            <p>Mis redes: </p>
+
+            <div>
+                <a href=""><img src="imagenes/github-sign.png" alt="Logo Git-hub"></a>
+                <a href="https://ar.linkedin.com/in/marquez-facundo-ez"><img src="imagenes/linkedin.png" alt="Logo Linkedin"></a>  
+            </div>
+            
+        </div>
+        
+    </footer>
+    <script src="function.js"></script>
+</body>
+</html>

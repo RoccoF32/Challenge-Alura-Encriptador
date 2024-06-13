@@ -1,0 +1,239 @@
+body{
+    background-color: gray;
+    font-family: "Exo 2";
+    font-weight: bold;
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+#global{
+    background-color: lightblue;
+    width: 940px;
+    height: 500px;
+    border-radius: 15px;
+    margin: 40px 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#bloque-01{
+    background-color: rgba(150, 218, 241,0.5);
+    width: 500px;
+    display: grid;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+textarea{
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    resize: none;
+    padding: 40px 40px 0 40px;
+    background-color: rgba(150, 218, 241,0.5);
+    border: none;
+    margin-bottom: 10px;
+    
+}
+#icono{
+    width: 20px;
+    height: 20px;
+}
+
+#botones1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones button{
+    width: 180px;
+    border-radius: 10px;
+}
+
+.btn-azul{
+    background-color: blue;
+    color: white;
+}
+
+
+
+#bloque-02{
+    display: grid;
+    grid-template-rows: 70% 20%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    padding: 20px 10px 10px 10px; 
+    
+}
+
+#botones2{
+    display: grid;
+    row-gap: 5px;
+    justify-content: space-evenly;
+    
+}
+#imagen{
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+}
+#resultado{
+    margin-top: 50px;
+}
+
+
+footer{
+    background-color: rgb(72, 71, 71);
+    color: white;
+    text-align: center;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
+
+#redes{
+    display: flex;
+    column-gap: 10px;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+
+}
+
+@media screen and (min-width: 300px) and (max-width:639px){
+    
+    #global{
+        grid-template-columns: auto;
+        grid-template-rows: 50% 50%;
+        width: auto;
+        height: auto;
+        /* margin: 20px; */
+    }
+
+    #bloque-01{
+        width: auto;
+        height: auto;
+    }
+
+    textarea{
+        width: auto;
+        margin-bottom: 5px;
+        font-size: x-large;
+        height: auto;
+    }
+
+    h3{
+        text-align: center;
+    }
+    #botones1{
+        display: grid;
+        row-gap: 5px;
+        margin-top: 5px;
+        height: 70px;
+    }
+
+    #bloque-02{
+        width: auto;
+        height: auto;
+        resize: none;
+    }
+
+    #sector-resultado{
+        height: auto;
+        overflow: hidden;
+    }
+
+    footer{
+        width: auto;
+        height: auto;
+    }
+
+    #redes{
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px){
+    #global{
+        width: auto;
+        /* height: auto; */
+        grid-template-columns: auto auto;
+        /* margin: 40px 20px; */
+    }
+    #bloque-01{
+        width: auto;
+        height: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    textarea{
+        width: auto;
+        margin-bottom: 5px;
+        font-size: xx-large;
+        height: 50%;
+    }
+
+    #botones1{
+        display: grid;
+        row-gap: 5px;
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    #bloque-02{
+        width: 80%;
+        height: auto;
+        justify-items: center;
+        font-size: 20px;
+    }
+
+    footer{
+        width: auto;
+        height: auto;
+    }
+
+    #redes{
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media screen and(min-width: 769) and (max-width: 1024){
+    
+    header{
+        width: auto;
+        height: auto;
+    }
+    
+    main{
+        width: auto;
+        height: auto;
+    }
+
+    #gloabl{
+        width: auto;
+        height: auto;
+        
+    }
+
+    footer{
+        width: auto;
+        height: auto;
+    }
+}
